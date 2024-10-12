@@ -211,7 +211,7 @@ export default function Home() {
               <h2 className="order-1 mt-2 tracking-tight text-center text-balance !leading-tight font-bold text-5xl md:text-6xl text-gray-900">
                 Upload your photo and get{" "}
                 <span className="relative px-2 bg-green-600 text-white">
-                  your own case
+                  your own skin
                 </span>{" "}
                 now
               </h2>
@@ -262,7 +262,7 @@ export default function Home() {
                 })}
                 href="/configure/upload"
               >
-                Create your case now <ArrowRight className="h-4 w-4 ml-1.5" />
+                Create your skin now <ArrowRight className="h-4 w-4 ml-1.5" />
               </Link>
             </div>
           </ul>
