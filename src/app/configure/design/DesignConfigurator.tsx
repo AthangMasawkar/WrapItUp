@@ -224,7 +224,7 @@ const DesignConfigurator = ({
 
           <div className='px-8 pb-12 pt-8'>
             <h2 className='tracking-tight font-bold text-3xl'>
-              Customize your case
+              Customize your skin
             </h2>
 
             <div className='w-full h-px bg-zinc-200 my-6' />
