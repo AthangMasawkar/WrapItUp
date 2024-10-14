@@ -51,7 +51,7 @@ const ThankYou = () => {
         <div className='max-w-xl'>
           <p className='text-base font-medium text-primary'>Thank you!</p>
           <h1 className='mt-2 text-4xl font-bold tracking-tight sm:text-5xl'>
-            Your case is on the way!
+            Your skin is on the way!
           </h1>
           <p className='mt-2 text-base text-zinc-500'>
             We've received your order and are now processing it.
@@ -69,9 +69,9 @@ const ThankYou = () => {
               You made a great choice!
             </h4>
             <p className='mt-2 text-sm text-zinc-600'>
-              We at CaseCobra believe that a phone case doesn't only need to
+              We at WrapItUp believe that a phone skin doesn't only need to
               look good, but also last you for the years to come. We offer a
-              5-year print guarantee: If you case isn't of the highest quality,
+              5-year print guarantee: If your skin isn't of the highest quality,
               we'll replace it for free.
             </p>
           </div>
@@ -85,32 +85,6 @@ const ThankYou = () => {
         </div>
 
         <div>
-          <div className='grid grid-cols-2 gap-x-6 py-10 text-sm'>
-            <div>
-              <p className='font-medium text-gray-900'>Shipping address</p>
-              <div className='mt-2 text-zinc-700'>
-                <address className='not-italic'>
-                  <span className='block'>{shippingAddress?.name}</span>
-                  <span className='block'>{shippingAddress?.street}</span>
-                  <span className='block'>
-                    {shippingAddress?.postalCode} {shippingAddress?.city}
-                  </span>
-                </address>
-              </div>
-            </div>
-            <div>
-              <p className='font-medium text-gray-900'>Billing address</p>
-              <div className='mt-2 text-zinc-700'>
-                <address className='not-italic'>
-                  <span className='block'>{billingAddress?.name}</span>
-                  <span className='block'>{billingAddress?.street}</span>
-                  <span className='block'>
-                    {billingAddress?.postalCode} {billingAddress?.city}
-                  </span>
-                </address>
-              </div>
-            </div>
-          </div>
 
           <div className='grid grid-cols-2 gap-x-6 border-t border-zinc-200 py-10 text-sm'>
             <div>
