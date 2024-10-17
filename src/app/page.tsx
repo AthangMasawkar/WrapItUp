@@ -16,7 +16,7 @@ export default function Home() {
               <div className='absolute w-28 left-0 -top-20 hidden lg:block'>
                 {/* i forgot this div right here in the video, it's purely visual gradient and looks nice */}
                 <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t via-slate-50/50 from-slate-50 h-28' />
-                <img src='/cat-1.png' className='w-full' />
+                <img src='/logo.png' className='w-full' />
               </div>
               <h1 className='relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl'>
                 Your Image on a{' '}
@@ -103,7 +103,7 @@ export default function Home() {
                 src='/line.png'
                 className='absolute w-20 -left-6 -bottom-6 select-none'
               />
-              <Phone className='w-64' imgSrc='/testimonials/1.jpg' />
+              <Phone className='w-64' imgSrc='/testimonials/graffiti.jpg' />
             </div>
           </div>
         </MaxWidthWrapper>
@@ -227,12 +227,12 @@ export default function Home() {
 
               <div className='relative h-80 md:h-full w-full md:justify-self-end max-w-sm rounded-xl bg-gray-900/5 ring-inset ring-gray-900/10 lg:rounded-2xl'>
                 <img
-                  src='/horse.jpg'
+                  src='/future.jpg'
                   className='rounded-md object-cover bg-white shadow-2xl ring-1 ring-gray-900/10 h-full w-full'
                 />
               </div>
 
-              <Phone className='w-60' imgSrc='/horse_phone.jpg' />
+              <Phone className='w-60' imgSrc='/future_phone.jpg' />
             </div>
           </div>
 
