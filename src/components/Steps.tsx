@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation'
 const STEPS = [
   {
     name: 'Step 1: Add image',
-    description: 'Choose an image for your case',
+    description: 'Choose an image for your skin',
     url: '/upload',
   },
   {
